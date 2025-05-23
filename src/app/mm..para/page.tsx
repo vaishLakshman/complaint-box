@@ -1,5 +1,4 @@
 "use client";
-import { toast } from "react-toastify";
 import Pixelutton from "../UI/pixelButton";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -16,18 +15,22 @@ export default function Complaints() {
     // router.push("/sorry");
   };
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   const handleSubjectChange = (e: any) => {
     setSubject(e.target.value);
   };
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   const handleBodyChange = (e: any) => {
     setBody(e.target.value);
   };
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   const handleLevelChange = (e: any) => {
     setLevel(e.target.value);
   };
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   const handleSolution = (e: any) => {
     setSolution(e.target.value);
   };
