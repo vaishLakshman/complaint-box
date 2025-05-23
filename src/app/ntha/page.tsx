@@ -24,9 +24,9 @@ export default function Options() {
               />
             </div>
           </div>
-          <div className="hidden lg:block w-fit group mx-auto">
+          <div className=" w-fit group mx-auto">
             <Pixelutton text={"Happy"} url={"/yayyy"} />
-            <div className="mx-auto ">
+            <div className="hidden lg:block mx-auto ">
               <Image
                 src={happy}
                 alt="happy gund"
@@ -36,9 +36,9 @@ export default function Options() {
               />
             </div>
           </div>
-          <div className="hidden lg:block w-fit mx-auto group">
+          <div className="w-fit mx-auto group">
             <Pixelutton text={`"Nthng"`} url={"/ayenthe"} />
-            <div className="mx-auto ">
+            <div className="hidden lg:block mx-auto ">
               <Image
                 src={chill}
                 alt="chill gund"
