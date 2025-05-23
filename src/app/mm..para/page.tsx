@@ -15,22 +15,22 @@ export default function Complaints() {
     // router.push("/sorry");
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // eslint-disable-next-line 
   const handleSubjectChange = (e: any) => {
     setSubject(e.target.value);
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // eslint-disable-next-line 
   const handleBodyChange = (e: any) => {
     setBody(e.target.value);
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // eslint-disable-next-line 
   const handleLevelChange = (e: any) => {
     setLevel(e.target.value);
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // eslint-disable-next-line 
   const handleSolution = (e: any) => {
     setSolution(e.target.value);
   };
