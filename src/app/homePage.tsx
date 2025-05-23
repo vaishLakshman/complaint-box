@@ -7,7 +7,7 @@ const HomePage = () => {
         Hi Gundu..!!
       </h1>
       <div className="w-fit mx-auto">
-        <Pixelutton text={"CLICK ME!!"} url={"/ntha"} bg={"bg-pink-200"} />
+        <Pixelutton text={"CLICK ME!!"} url={"/ntha"} />
       </div>
     </div>
   );
