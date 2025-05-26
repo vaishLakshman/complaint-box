@@ -18,7 +18,10 @@ export default function Sorry() {
         <div className="w-fit mx-auto">
           <Pixelutton text="Um" url="/yayyy" />
         </div>
-        <div className="text-pink-500 opacity-30 lg:opacity-50 bottom-0 w-fit text-sm lg:text-md  mt-10 mx-auto">*submit cheytha form work cheyyan API cheyyanullath enk orma illa :)</div>
+        <div className="text-pink-500 opacity-50 lg:opacity-50 bottom-0 w-fit text-md lg:text-lg  mt-10 mx-auto">
+          submit cheytha complaint review cheytha venda{" "}
+          <b className="tracking-widest">PALAHARAM</b> eduthirikkum :)
+        </div>
       </div>
     </div>
   );
