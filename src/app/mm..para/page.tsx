@@ -40,7 +40,6 @@ export default function Complaints() {
     <div className="h-screen bg-pink-50 flex items-center justify-center font-jersey">
       <form
         className="complaint-container w-full px-5 lg:p-0 lg:w-1/3"
-        // onSubmit={handleSubmit}
       >
         <h1 className=" text-pink-700 mb-5 w-fit mx-auto font-jersey text-4xl lg:text-6xl tracking-wider">
           Parayu kunjaave
